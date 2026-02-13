@@ -5,7 +5,7 @@ const BackgroundPattern = () => {
       <div className="absolute top-0 left-0 w-96 h-96 bg-amber-100 opacity-6 rounded-3xl blur-3xl" />
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-amber-200 opacity-4 rounded-3xl blur-3xl" />
       <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-amber-100 opacity-3 rounded-3xl blur-3xl" />
-      
+
       <svg
         className="w-full h-full absolute inset-0"
         viewBox="0 0 1200 800"
@@ -22,10 +22,10 @@ const BackgroundPattern = () => {
             <stop offset="100%" stopColor="#222831" stopOpacity="0.03" />
           </radialGradient>
           <filter id="glow">
-            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feGaussianBlur stdDeviation="3" result="coloredBlur" />
             <feMerge>
-              <feMergeNode in="coloredBlur"/>
-              <feMergeNode in="SourceGraphic"/>
+              <feMergeNode in="coloredBlur" />
+              <feMergeNode in="SourceGraphic" />
             </feMerge>
           </filter>
         </defs>
@@ -92,7 +92,6 @@ const BackgroundPattern = () => {
       </svg>
     </div>
   );
-};
 };
 
 export default BackgroundPattern;
