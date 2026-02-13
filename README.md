@@ -2,9 +2,6 @@
 
 > Transform your fitness journey with expert coaching and personalized programs.
 
-**Live Demo:** [vkfit.vercel.app/]  
-**Repository:** [github.com/adityadomle/vikram-fitness](https://github.com/adityadomle/vikram-fitness)
-
 ## Features
 
 - Personalized fitness programs
