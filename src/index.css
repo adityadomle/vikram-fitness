@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -45,8 +45,8 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    --font-heading: 'DM Serif Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Bebas Neue', sans-serif;
+    --font-body: 'Montserrat', sans-serif;
 
     --shadow-card: 0 2px 16px -2px hsl(0 0% 0% / 0.06);
     --shadow-button: 0 2px 8px -2px hsl(181 61% 15% / 0.25);
@@ -80,6 +80,10 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-body);
@@ -87,18 +91,19 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
+    letter-spacing: 0.04em;
   }
 }
 
 @layer utilities {
   .heading-hero {
     font-family: var(--font-heading);
-    @apply text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight text-foreground;
+    @apply text-6xl md:text-7xl lg:text-8xl leading-none tracking-wide uppercase text-foreground;
   }
 
   .heading-section {
     font-family: var(--font-heading);
-    @apply text-3xl md:text-4xl lg:text-5xl leading-tight text-foreground;
+    @apply text-4xl md:text-5xl lg:text-6xl leading-none tracking-wide uppercase text-foreground;
   }
 
   .body-large {

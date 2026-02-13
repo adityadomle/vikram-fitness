@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
   return (
-    <section className="bg-primary section-padding">
+    <section id="contact" className="bg-primary section-padding">
       <div className="max-w-3xl mx-auto text-center space-y-6">
         <h2 className="heading-section text-primary-foreground">
           Ready to Transform?
