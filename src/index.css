@@ -7,25 +7,31 @@
 @layer base {
   :root {
     /* New Green Palette - #3E5F44, #5E936C, #93DA97, #E8FFD7 */
-    --background: 142 21% 31%;  /* #3E5F44 - Dark green */
-    --foreground: 100 100% 95%; /* #E8FFD7 - Very light mint */
+    --background: 142 21% 31%;
+    /* #3E5F44 - Dark green */
+    --foreground: 100 100% 95%;
+    /* #E8FFD7 - Very light mint */
 
-    --card: 142 21% 38%;        /* Slightly lighter than bg */
+    --card: 142 21% 38%;
+    /* Slightly lighter than bg */
     --card-foreground: 100 100% 95%;
 
     --popover: 142 21% 38%;
     --popover-foreground: 100 100% 95%;
 
-    --primary: 110 52% 71%;     /* #93DA97 - Light green */
+    --primary: 110 52% 71%;
+    /* #93DA97 - Light green */
     --primary-foreground: 142 21% 31%;
 
-    --secondary: 142 21% 48%;   /* #5E936C - Medium green */
+    --secondary: 142 21% 48%;
+    /* #5E936C - Medium green */
     --secondary-foreground: 100 100% 95%;
 
     --muted: 142 21% 45%;
     --muted-foreground: 100 100% 88%;
 
-    --accent: 110 52% 71%;      /* #93DA97 */
+    --accent: 110 52% 71%;
+    /* #93DA97 */
     --accent-foreground: 142 21% 31%;
 
     --destructive: 0 84.2% 60.2%;
@@ -90,7 +96,12 @@
     font-family: var(--font-body);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-heading);
     letter-spacing: 0.04em;
   }
@@ -99,19 +110,19 @@
 @layer utilities {
   .heading-hero {
     font-family: var(--font-heading);
-    @apply text-6xl md:text-7xl lg:text-8xl leading-none tracking-wide uppercase text-foreground;
+    @apply text-4xl md:text-6xl lg:text-7xl xl:text-8xl leading-none tracking-wide uppercase text-foreground;
   }
 
   .heading-section {
     font-family: var(--font-heading);
-    @apply text-4xl md:text-5xl lg:text-6xl leading-none tracking-wide uppercase text-foreground;
+    @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-none tracking-wide uppercase text-foreground;
   }
 
   .body-large {
-    @apply text-lg leading-relaxed text-muted-foreground;
+    @apply text-base md:text-lg leading-relaxed text-muted-foreground;
   }
 
   .section-padding {
-    @apply px-6 md:px-12 lg:px-24 py-16 md:py-24;
+    @apply px-4 md:px-8 lg:px-12 xl:px-24 py-12 md:py-16 lg:py-24;
   }
 }
