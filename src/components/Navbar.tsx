@@ -38,7 +38,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-12 h-16">
         <a href="#home" className="font-heading text-2xl tracking-wider text-foreground uppercase">
-          Ely Cohen
+          Vikram Fitness
         </a>
 
         <ul className="hidden md:flex items-center gap-8">

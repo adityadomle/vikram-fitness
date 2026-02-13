@@ -4,24 +4,24 @@ import testimonial3 from "@/assets/testimonial-3.jpg";
 
 const testimonials = [
   {
-    name: "Marcus T.",
-    result: "15 lbs Muscle Gain",
+    name: "Rajesh K.",
+    result: "7 kg Muscle Gain",
     timeframe: "12 Weeks",
-    quote: "The customized program changed everything. I had tried generic plans before, but Ely's approach was different—tailored to my body and lifestyle.",
+    quote: "Vikram Fitness changed my life completely. The trainers here actually understand body mechanics and progressively challenge you. Best decision I made!",
     image: testimonial1,
   },
   {
-    name: "Sarah M.",
-    result: "24 lbs Fat Loss",
+    name: "Priya S.",
+    result: "10 kg Fat Loss",
     timeframe: "16 Weeks",
-    quote: "The meal plans were easy to follow, and having 24/7 support made all the difference. This isn't just coaching, it's accountability.",
+    quote: "The nutrition guidance combined with personalized workouts is unbeatable. I've never been this confident about my body. Highly recommended!",
     image: testimonial2,
   },
   {
-    name: "James R.",
-    result: "32 lbs Transformation",
+    name: "Amit P.",
+    result: "15 kg Transformation",
     timeframe: "20 Weeks",
-    quote: "I've never felt stronger or more confident. The systematic approach combined with personal attention is unmatched.",
+    quote: "From flab to fab! The community here is incredibly motivating. Vikram Fitness isn't just a gym, it's a family that pushes you to be better.",
     image: testimonial3,
   },
 ];
@@ -30,9 +30,9 @@ const TestimonialsSection = () => {
   return (
     <section id="testimonials" className="section-padding">
       <div className="max-w-7xl mx-auto">
-        <h2 className="heading-section text-center mb-4">Client Transformations</h2>
+        <h2 className="heading-section text-center mb-4">Member Success Stories</h2>
         <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-16">
-          Real results from real clients. See what's possible when you commit to the program.
+          Real transformations from real members. See what's possible at Vikram Fitness Studio.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">

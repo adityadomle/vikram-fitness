@@ -5,20 +5,20 @@ import program3 from "@/assets/program-3.jpg";
 const programs = [
   {
     num: "01",
-    title: "Fit & Functional Quiz",
-    description: "Fill out a detailed questionnaire about your current exercise activities, eating habits, lifestyle preferences, and health information to build your perfect plan.",
+    title: "Fitness Assessment",
+    description: "Complete fitness evaluation including body composition analysis, strength testing, and flexibility assessment. Our certified trainers create a personalized roadmap based on your current fitness level and goals.",
     image: program1,
   },
   {
     num: "02",
-    title: "Customized Meal Plan",
-    description: "A menu designed to fit your daily routine with all the data from your questionnaire. Tailored to your nutritional requirements and caloric intake.",
+    title: "Personalized Training",
+    description: "One-on-one training sessions with certified fitness coaches. Every workout is designed specifically for you with progressive overload, form correction, and real-time motivation to maximize results.",
     image: program2,
   },
   {
     num: "03",
-    title: "Personal Training",
-    description: "Customized workout programs with 24/7 support, form checks, and progressive overload tracking to ensure you're always moving forward.",
+    title: "Nutrition Planning",
+    description: "Custom meal plans designed by nutritionists aligned with your fitness goals. Including macro tracking, supplement guidance, and regular adjustments based on your progress.",
     image: program3,
   },
 ];
@@ -27,7 +27,7 @@ const ProgramsSection = () => {
   return (
     <section id="programs" className="section-padding bg-secondary">
       <div className="max-w-7xl mx-auto">
-        <h2 className="heading-section text-center mb-12">Our Program</h2>
+        <h2 className="heading-section text-center mb-12">Our Services</h2>
 
         <div className="grid md:grid-cols-3 gap-8">
           {programs.map((p) => (

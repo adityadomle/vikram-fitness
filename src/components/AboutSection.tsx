@@ -19,10 +19,10 @@ const AboutSection = () => {
 
         <div className="flex-1 grid grid-cols-2 gap-4">
           {[
-            { value: "500+", label: "Clients Coached" },
-            { value: "8+", label: "Years Experience" },
-            { value: "24/7", label: "Personal Support" },
-            { value: "100%", label: "Custom Plans" },
+            { value: "2000+", label: "Active Members" },
+            { value: "15+", label: "Years in Business" },
+            { value: "50+", label: "Premium Equipment" },
+            { value: "100%", label: "Satisfaction Rate" },
           ].map((stat) => (
             <div
               key={stat.label}
